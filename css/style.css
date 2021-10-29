@@ -1,8 +1,9 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-header iframe {
-    width: 100%;
-}
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    header iframe {
+        width: 100%;
+    }
