@@ -15,14 +15,18 @@ header {
 }
 
 .logo-container {
-    flex: 1;
     display: flex;
+    align-items: center;
+    margin-left: 110px;
     justify-content: center;
     align-items: center;
 }
 
+
+/* Botões header centro */
+
 .btn-list {
-    flex: 1;
+    margin-left: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,15 +35,43 @@ header {
 .btn-list button {
     margin-right: 20px;
     width: 90px;
-    height: 30px;
-    border: solid 1px black;
+    height: 35px;
+    border: solid 1px rgba(0, 0, 0, 0.712);
+    border-radius: 7px;
     background-color: rgb(102, 67, 20);
     color: white;
 }
 
+.btn-list button:hover {
+    border: solid 1px rgba(255, 255, 255, 0.548);
+    box-shadow: 0 3px 3px 0 black;
+    background-color: rgba(141, 104, 56, 0.753);
+    cursor: pointer;
+}
+
+
+/* Botões header direita */
+
 .contact-list {
-    flex: 1;
+    margin-left: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contact-list button {
+    width: 90px;
+    height: 35px;
+    margin-left: 35px;
+    border: solid 1px rgba(0, 0, 0, 0.712);
+    border-radius: 7px;
+    background-color: rgb(102, 67, 20);
+    color: white;
+}
+
+.contact-list button:hover {
+    border: solid 1px rgba(255, 255, 255, 0.548);
+    box-shadow: 0 3px 3px 0 black;
+    background-color: rgba(141, 104, 56, 0.753);
+    cursor: pointer;
 }
