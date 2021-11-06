@@ -27,9 +27,10 @@ body {
 }
 
 .logo-container {
+    flex: 1;
     display: flex;
     align-items: center;
-    margin-left: 110px;
+    /* margin-left: 110px; */
     justify-content: center;
     align-items: center;
 }
@@ -38,7 +39,8 @@ body {
 /* Botões header centro */
 
 .btn-list {
-    margin-left: 240px;
+    flex: 1;
+    /* margin-left: 240px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +69,8 @@ body {
 /* Botões header direita */
 
 .contact-list {
-    margin-left: 120px;
+    flex: 1;
+    /* margin-left: 120px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +97,7 @@ body {
 
 
 /* Main */
+
 
 .products-container .first {
     margin-top: 60px;
@@ -218,10 +222,16 @@ body {
 /* Footer */
 
 footer {
+    width: 100%;
     height: 120px;
     margin-top: 100px;
     background-color: rgb(39, 39, 39);
     box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.726);
+}
+
+footer.fixed{
+    bottom: 0;
+    position: fixed;
 }
 
 .footer-top {
@@ -283,32 +293,46 @@ footer {
 /* PÁGINA CADASTRO */
 
 .cadastro-title {
+    color: white;
     display: flex;
     justify-content: flex-end;
-    margin-top: 50px;
+    margin-top: 110px;
     width: 100%;
-}
-
-.cadastro-title h1 {
-    margin-right: 265px;
 }
 
 .contact-items {
     width: 100%;
-    height: 335px;
+    height: 385px;
     margin-top: 20px;
-    /* background-color: cornflowerblue; */
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+}
+
+.ocupa-espaco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
 
 .contact-container {
     width: 365px;
-    margin-right: 175px;
+    height: 100%;
     border: 1px solid rgba(150, 150, 150, 0.829);
     border-radius: 7px;
     font-weight: 600;
+    /* display: flex; */
+}
+
+.contact-container-display{
     display: flex;
+}
+
+.contact-container-display .div1{
+    flex: 1;
+}
+.contact-container-display .div2{
+    flex: 2;
 }
 
 .contact-container input {
@@ -328,26 +352,56 @@ footer {
 } */
 
 .register-text {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
-    width: 35%;
+
 }
 
 .register-text p {
-    margin-top: 27px;
+    margin-top: 22px;
     height: 20px;
 }
 
 .register-inputs {
-    padding-top: 50px;
+    padding-top: 30px;
     text-align: center;
-    width: 60%;
+
 }
 
 .register-inputs input {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
-.contact-container button {
-    margin-top: 25px;
+
+.contact-container-btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-container-btns button{
+    width: 160px;
+    height: 35px;
+    margin-top: 45px;
+    font-size: 17px;
+    border: 1px solid rgba(0, 0, 0, 0.589);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.699);
+    font-weight: 600;
+}
+
+.contact-container-btns button:hover{
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.671);
+    cursor: pointer;
+    transition: .2s;
+}
+
+#loja-img{
+    width: 700px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.616);
+}
+
+#loja-img:hover{
+    cursor: pointer;
+    box-shadow: none;
 }
