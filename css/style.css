@@ -98,7 +98,6 @@ body {
 
 /* Main */
 
-
 .products-container .first {
     margin-top: 60px;
 }
@@ -229,7 +228,7 @@ footer {
     box-shadow: 0px 0px 10px 0 rgba(0, 0, 0, 0.726);
 }
 
-footer.fixed{
+footer.fixed {
     bottom: 0;
     position: fixed;
 }
@@ -296,7 +295,7 @@ footer.fixed{
     color: white;
     display: flex;
     justify-content: flex-end;
-    margin-top: 110px;
+    margin-top: 90px;
     width: 100%;
 }
 
@@ -308,7 +307,7 @@ footer.fixed{
     justify-content: space-around;
 }
 
-.ocupa-espaco{
+.ocupa-espaco {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,14 +323,15 @@ footer.fixed{
     /* display: flex; */
 }
 
-.contact-container-display{
+.contact-container-display {
     display: flex;
 }
 
-.contact-container-display .div1{
+.contact-container-display .div1 {
     flex: 1;
 }
-.contact-container-display .div2{
+
+.contact-container-display .div2 {
     flex: 2;
 }
 
@@ -354,7 +354,6 @@ footer.fixed{
 .register-text {
     padding-top: 30px;
     text-align: center;
-
 }
 
 .register-text p {
@@ -365,20 +364,18 @@ footer.fixed{
 .register-inputs {
     padding-top: 30px;
     text-align: center;
-
 }
 
 .register-inputs input {
     margin-top: 20px;
 }
 
-
-.contact-container-btns{
+.contact-container-btns {
     display: flex;
     justify-content: space-around;
 }
 
-.contact-container-btns button{
+.contact-container-btns button {
     width: 160px;
     height: 35px;
     margin-top: 45px;
@@ -389,19 +386,19 @@ footer.fixed{
     font-weight: 600;
 }
 
-.contact-container-btns button:hover{
+.contact-container-btns button:hover {
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.671);
     cursor: pointer;
     transition: .2s;
 }
 
-#loja-img{
+#loja-img {
     width: 700px;
     border-radius: 7px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.616);
 }
 
-#loja-img:hover{
+#loja-img:hover {
     cursor: pointer;
     box-shadow: none;
 }
